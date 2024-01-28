@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Spotify.css">
+    <link rel="icon" href="./logos/logo.png">
+    <title>Spotify-Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="'#">Home </a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                        <div class="lib-option nav-option"> <!--we are gining same class jaise nav option ko style diya wahi chla jaega  -->
+                        <img src="./logos/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p> <!-- we have given para class to make spacing-->
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p> <!-- we have given para class to make spacing-->
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./logos/backward_icon.png" >
+                    <img src="./logos/forward_icon.png" class="hide" >
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge dark-badge nav-item"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i> Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./logos/reputation_cover.jpg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./logos/rare_cover.jpg" class="card-img">
+                    <p class="card-title">Rare </p>
+                    <p class="card-info">Selena Gomez</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/lover_cov.jpg" class="card-img">
+                    <p class="card-title">Lover </p>
+                    <p class="card-info">Taylor Swift</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/speaknow_cover.webp" class="card-img">
+                    <p class="card-title">Back To December </p>
+                    <p class="card-info">Taylor Swift</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/friends_cover.jpg" class="card-img">
+                    <p class="card-title">F.R.I.E.N.D.S</p>
+                    <p class="card-info">Anne Marie</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/lover_cov.jpg" class="card-img">
+                    <p class="card-title">Cruel Summer</p>
+                    <p class="card-info">Taylor Swift</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/speaknow_cover.webp" class="card-img">
+                    <p class="card-title">Enchanted </p>
+                    <p class="card-info">Taylor Swift</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./logos/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./logos/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="lov-cov">
+                    <img src="./logos/lover_cov.jpg">
+                </div>
+                <div class="name">
+                    <div style="opacity: 0.9;font-size: 0.9rem;">Cruel Summer</div>
+                    <div style="opacity: 0.4; font-size: 0.7rem;">Taylor Swift</div>
+                </div>
+                <div class="album-icons">
+                    <img src="./homework/album_icon1.png"class="album-icons" style="height: 1.5rem;width: 1.5rem;">
+                    <img src="./homework/album_icon2.png"class="album-icons">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./logos/player_icon1.png" class="player-control-icon">
+                    <img src="./logos/player_icon2.png" class="player-control-icon">
+                    <img src="./logos/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 1.75rem;">
+                    <img src="./logos/player_icon4.png" class="player-control-icon">
+                    <img src="./logos/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./homework/controls_icon1.png">
+                <img src="./homework/controld_icon2.png">
+                <img src="./homework/controls_icon4.png" style="opacity: 0.7; height: 1.4rem; width: 1.4rem;">
+                <img src="./homework/controls_icon5.png">
+                <input type="range" step="1"></input>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
